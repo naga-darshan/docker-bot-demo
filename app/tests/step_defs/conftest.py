@@ -3,7 +3,7 @@ import gc
 import pytest
 
 from pytest_bdd import given, then, scenarios, parsers
-from app.lib.exchangeConnector import Connector
+from app.util.exchangeConnector import Connector
 
 import logging
 logging.basicConfig(format="%(asctime)s: %(levelname)-8s : %(message)s", level=logging.DEBUG)
