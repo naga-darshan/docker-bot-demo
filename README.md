@@ -14,8 +14,10 @@ High-level step
 
 
 <h3><b>PRE-REQUISITE 2: </b>Create & setup new Spot Exchange account</h3>
-- Navigate to the website and create/sign-up for a new account
-- Activate and Login to your account
+
+  - Navigate to the website and create/sign-up for a new account
+
+  - Activate and Login to your account
 <br>
 
 
