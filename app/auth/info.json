@@ -1,0 +1,11 @@
+{
+    "_comment_1_": "Host name is encoded here below as per requirement, this is not an API key, DO NOT CHANGE",
+    "HOST": "YXBpLmtyYWtlbi5jb20=",
+
+
+    "_comment_2_": "Keys below to be added, refer Read Me!",
+    "SETUP_KEY": "",
+    "API_KEY": "",
+    "API_SECRET": "",
+    "TRADING_2FA": ""
+}
