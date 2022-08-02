@@ -20,41 +20,41 @@ High-level step
 
 
 <h4>Setup 2FA for Sign-in section, to setup 2FA using `2FA app` </h4>
-  * Once logged in, navigate to Security settings using the drop down on top right corner (click on your username)
-  * Select 2FA from the option
-  * Under Sign-in section click on `Activate now`
-  * On the pop-up click `View Setup Key`
-  * Copy the <sign_in_setup_key> into clipboard or a local notepad
-  * In terminal from <b>PREREQUISITE 1:</b> navigate to `..\app\auth\`
-  * run `python .\botAuthenticator.py -s <sign_in_setup_key>`
-  * copy the 6-digit OTP from terminal and paste it in the browser pop-up for 2FA setup under `Enter code from 2FA app`
-  * Click confirm
-  * Navigate to `..\app\auth\info.json` and paste the <sign_in_setup_key> as value for `SETUP_KEY` variable in the json
+  - Once logged in, navigate to Security settings using the drop down on top right corner (click on your username)
+  - Select 2FA from the option
+  - Under Sign-in section click on `Activate now`
+  - On the pop-up click `View Setup Key`
+  - Copy the <sign_in_setup_key> into clipboard or a local notepad
+  - In terminal from <b>PREREQUISITE 1:</b> navigate to `..\app\auth\`
+  - run `python .\botAuthenticator.py -s <sign_in_setup_key>`
+  - copy the 6-digit OTP from terminal and paste it in the browser pop-up for 2FA setup under `Enter code from 2FA app`
+  - Click confirm
+  - Navigate to `..\app\auth\info.json` and paste the <sign_in_setup_key> as value for `SETUP_KEY` variable in the json
     `{'SETUP_KEY' : '<sign_in_setup_key>'}`
-  * You can consider to erase the notepad data from the earlier step
+  - You can consider to erase the notepad data from the earlier step
 
 
 <h4>Setup `TRADING_2FA` for static 2FA Authentication</h4>
-  * Under Trading 2FA section click on toggle button to enable it
-  * On the pop-up select `Password` option for static 2FA
-  * Enter the trading password you wish to keep and Confirm to finsh the static 2FA
-  * In terminal from <b>PREREQUISITE 1:</b> navigate to `..\app\auth\`
-  * run ` python .\requestHandler.py -e <trading_password>`
-  * copy the encoded code from terminal and update `info.json`
-  * Navigate to `..\app\auth\info.json` and update the <encode_code> as value for `TRADING_2FA` variable in the json; 
+  - Under Trading 2FA section click on toggle button to enable it
+  - On the pop-up select `Password` option for static 2FA
+  - Enter the trading password you wish to keep and Confirm to finsh the static 2FA
+  - In terminal from <b>PREREQUISITE 1:</b> navigate to `..\app\auth\`
+  - run ` python .\requestHandler.py -e <trading_password>`
+  - copy the encoded code from terminal and update `info.json`
+  - Navigate to `..\app\auth\info.json` and update the <encode_code> as value for `TRADING_2FA` variable in the json; 
     `{'TRADING_2FA' : '<encoded_2fa_code>'}`
 
 
 <h4>Setup `API_KEY` and `API_SECRET`for project to work with APIs</h4>
-  * Select `API` from the tabs on the exchange security settings screen
-  * Click on `ADD KEY`
-  * Under Key Permissions check `Query open orders & trades` option
-  * Copy the `API Key` and `Private Key` into clipboard or a local notepad
-  * Navigate to `..\app\auth\info.json` and update
-  * Navigate to `..\app\auth\info.json` and upate the <api_key> as value for `API_KEY` and <private_key> as a value for `API_SECRET` variable in the json; 
+  - Select `API` from the tabs on the exchange security settings screen
+  - Click on `ADD KEY`
+  - Under Key Permissions check `Query open orders & trades` option
+  - Copy the `API Key` and `Private Key` into clipboard or a local notepad
+  - Navigate to `..\app\auth\info.json` and update
+  - Navigate to `..\app\auth\info.json` and upate the <api_key> as value for `API_KEY` and <private_key> as a value for `API_SECRET` variable in the json; 
     `{'API_KEY' : '<api_key>', 'API_SECRET' : '<private_key>'}`
-  * Click Save
-  * You can now consider to erase the notepad data from the earlier step
+  - Click Save
+  - You can now consider to erase the notepad data from the earlier step
 
 <br>
 
