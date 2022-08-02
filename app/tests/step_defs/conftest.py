@@ -34,7 +34,6 @@ def context():
 
 
 @given(parsers.parse('I am connected to spot exchange "{endPointType}" api'))
-# @given('I am connected to spot exchange "<endPointType>" api')
 def connectToSpotExchange(context, endPointType):
     logger.debug("Executing connectToSpotExchange...")
     status = context.connectToExchange(isPublic=True) if endPointType == "public" else context.connectToExchange(isPrivate=True)

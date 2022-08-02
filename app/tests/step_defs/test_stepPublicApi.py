@@ -18,7 +18,6 @@ def retrieveServerTime(context):
 
 
 @when(parsers.parse('I retrieve the "{tradePair}" trade pair'))
-# @when('I retrieve the "<tradePair>" trade pair')
 def retrieveTradePairInfo(context, tradePair):
     try:
         logger.debug("Executing retrieveTradePairInfo...")
