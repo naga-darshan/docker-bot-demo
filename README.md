@@ -20,6 +20,7 @@ High-level step
 
 
 <h4>Setup 2FA for Sign-in section, to setup 2FA using `2FA app` </h4>
+
   - Once logged in, navigate to Security settings using the drop down on top right corner (click on your username)
   
   - Select 2FA from the option
@@ -44,6 +45,7 @@ High-level step
 
 
 <h4>Setup `TRADING_2FA` for static 2FA Authentication</h4>
+
   - Under Trading 2FA section click on toggle button to enable it
   
   - On the pop-up select `Password` option for static 2FA
@@ -60,6 +62,7 @@ High-level step
 
 
 <h4>Setup `API_KEY` and `API_SECRET`for project to work with APIs</h4>
+
   - Select `API` from the tabs on the exchange security settings screen
   
   - Click on `ADD KEY`
