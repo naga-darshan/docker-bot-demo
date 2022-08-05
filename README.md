@@ -8,7 +8,7 @@ High-level step
 <h3><b>PRE-REQUISITE 1: </b>Setting up your <b>local dev</b> environment</h3>
 
 - Clone this repo onto your local using the following command
-  `git clone https://github.com/NagasCodeHub/DockerBotTest.git`
+  `git clone https://github.com/naga-darshan/docker-bot-demo`
 - Open the project in any python compatible IDE you prefer like `PyCharm` or `VS Code`
 - Install python 3.7 by from [here](https://www.python.org/downloads/) | [Additional resource for help with setup](https://phoenixnap.com/kb/how-to-install-python-3-windows) 
 
